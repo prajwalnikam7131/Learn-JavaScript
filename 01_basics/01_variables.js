@@ -28,3 +28,7 @@ accountCity = "Malegon";
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity]); // output shown in table format.
 
+/* 
+    prefer not to use 'var'.
+    becase of issue in block scope and functional scope.
+*/ 

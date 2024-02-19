@@ -1,8 +1,9 @@
-console.log("Prajwal");
-
 /* 
     In this chapter learn let, const and var.
     let's understand with example.
+
+    *) what is let, const and var ?
+    difination:- let, const and var are the keywords used for declaring the variables.
 */
 
 const accountId = 123231;
@@ -12,9 +13,10 @@ accountCity = "Malegon";
 
 
 /* 
-
+    when use 'const' keyword then we cannot change or update value later.
 */
-// accountId = 123123; 
+
+// accountId = 123123; // error shown becase you declare const keyword.
 
 /*
     There are different type's to print output.
@@ -23,4 +25,5 @@ accountCity = "Malegon";
     3) console.table([variable_name1, variable_name2, variable_name3, ...]) 
 */
 console.log(accountId);
-console.table([accountId, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity]); // output shown in table format.
+

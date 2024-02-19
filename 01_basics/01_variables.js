@@ -1,9 +1,10 @@
 /* 
     In this chapter learn let, const and var.
-    let's understand with example.
-
+    
     *) what is let, const and var ?
     difination:- let, const and var are the keywords used for declaring the variables.
+
+    let's understand with example.
 */
 
 const accountId = 123231;

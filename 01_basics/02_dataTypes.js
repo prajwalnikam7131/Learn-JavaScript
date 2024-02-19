@@ -30,7 +30,7 @@ let Name = "Prajwal"; // string data type
 let bool = false; // boolean data type
 let age; // undefined
 
-const person = {   
+const person = {
     name: "prajwal",
     age: 23,
     city: "Malegaon"
@@ -46,3 +46,11 @@ console.log(typeof name); // undefined
 console.log(typeof bool);
 console.log(typeof age); // undefined
 console.log(typeof person);
+
+/* 
+    when we can find type-of any variable then we can use two method
+*/
+// 1st Method
+console.log(typeof Name);
+// 2nd method 
+console.log(typeof (Name)); // with paranthesis

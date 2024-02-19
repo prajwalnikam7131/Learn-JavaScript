@@ -17,7 +17,7 @@ accountCity = "Malegon";
     when use 'const' keyword then we cannot change or update value later.
 */
 
-// accountId = 123123; // error shown becase you declare const keyword.
+// accountId = 123123; // error shown becase you declare const keyword already.
 
 /*
     There are different type's to print output.

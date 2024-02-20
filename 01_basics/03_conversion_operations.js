@@ -16,9 +16,22 @@ let numToString = String(num);
 let str = "prajwal";
 
 // console.log(str); // '45' is string.
-console.log(typeof str); // string
+// console.log(typeof str); // string
 
 let stringInNumber = Number(str);
 
-console.log(stringInNumber); // NaN
-console.log(typeof stringInNumber); // number
+// console.log(stringInNumber); // NaN
+// console.log(typeof stringInNumber); // number
+
+
+
+let a;
+
+a=25;
+console.log(a, typeof a);
+a=String(25);
+console.log(a, typeof a);
+
+a=25.5;
+console.log(a, typeof a);
+

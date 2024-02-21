@@ -54,3 +54,12 @@ console.log(d); // { greeting: 'welcome to Programers' }
         variables refers to a same object,
         sharing memory location and affecting each other's value.
 */
+
+
+/* ++++++++++++++++++++++++++++ Stack and Heap Memory ++++++++++++++++++++++++++++ */
+
+/* 
+    In Stack Memory store Primitive data type.
+
+    and In Heap Memory store References data type.
+*/

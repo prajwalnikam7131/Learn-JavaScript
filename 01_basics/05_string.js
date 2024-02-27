@@ -71,7 +71,7 @@ console.log(sentence.charAt(4)); // v
 */
 
 sentence = `I love coding.`;
-console.log(sentence.at(4)); // v  (allow to negative method.)
+console.log(sentence.at(4)); // v  (allow to negative indexes.)
 
 /*
     # slice() Method:

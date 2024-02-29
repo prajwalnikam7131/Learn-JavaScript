@@ -44,13 +44,71 @@ let num = 5.123456;
 
 num = 123.456;
 
-console.log(num.toPrecision(5)); // 123.46
-console.log(num.toPrecision(3)); // 123
-console.log(num.toPrecision(1)); // 1e+2
+// console.log(num.toPrecision(5)); // 123.46
+// console.log(num.toPrecision(3)); // 123
+// console.log(num.toPrecision(1)); // 1e+2
 
 /* 
     # toLocaleString():    
 */
-const value = 200000;
-console.log(value.toLocaleString()); // 200,000
-console.log(value.toLocaleString('en-In')); // 2,00,000
+let value = 200000;
+// console.log(value.toLocaleString()); // 200,000
+// console.log(value.toLocaleString('en-In')); // 2,00,000
+
+/* 
+    # toExponential():
+    return string representing this number in exponential notation.    
+*/
+value = 200000;
+
+// console.log(value.toExponential()); // 2e+5
+// console.log(value.toExponential(2)); // 2.00e+5
+// console.log(value.toExponential(3)); // 2.000e+5
+
+/* 
+    # toString(): [Advanced topic]    
+*/
+// let valuetoString = 200000;
+// console.log(valuetoString.toString(16));
+
+
+/* ++++++++++++++++++++++++++++++++++ javaScript Properties ++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++ javaScript Methods ++++++++++++++++++++++++++++++++++ */
+
+/*
+    # Math.abs() Method:
+    returns the absolute value.
+*/
+
+// console.log(Math.abs(-7)); // 7
+// console.log(Math.abs(2.5)); // 2.5
+// console.log(Math.abs(null)); // 0
+// console.log(Math.abs(`Hello`)); // NaN
+// console.log(Math.abs(2-3)); // 1
+
+
+/*
+    # Math.ceil() Method:
+    always round up and returns the smallest integer than or equal to a given number.
+*/
+
+// console.log(Math.ceil(0.60)); // 1
+// console.log(Math.ceil(0.40)); // 1
+// console.log(Math.ceil(5)); // 5
+// console.log(Math.ceil(5.1)); // 6
+// console.log(Math.ceil(-5.1)); // -5
+// console.log(Math.ceil(-5.9)); // -5
+
+/*
+    # Math.floor() Method:
+    always round down and returns the largest integer less than or equal to a given number.
+*/
+
+console.log(Math.floor(0.60)); // 0
+console.log(Math.floor(0.40)); // 0
+console.log(Math.floor(5)); // 5
+console.log(Math.floor(5.1)); // 5
+console.log(Math.floor(-5.1)); // -6
+console.log(Math.floor(-5.9)); // -6

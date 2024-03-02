@@ -11,4 +11,28 @@ console.log(currentDate.toLocaleDateString()); // 2/29/2024
 // const myDate = new Date(2025, 0, 14 , 23, 30);
 // const myDate = new Date(`2025-01-14`); // yy-mm-dd
 const myDate = new Date(`01-14-2023`); // mm-dd-yy
-console.log(myDate);
+// console.log(myDate);
+
+
+/* Get Date Method */
+const date = new Date()
+console.log(date); // yy-mm-dd 
+
+console.log(date.getDate()); // returns current date.
+console.log(date.getMonth()); // returns the month of a date as a number(0 - 11).
+console.log(date.getFullYear()); // returns the current year.
+console.log(date.getTime()); // return current time in milliseconds for e.g.: 1709274063834
+
+/* Get set Method */
+const d = new Date()
+
+d.setDate(14);
+d.setMonth(0);
+d.setFullYear(2025);
+
+// d.setHours()
+// d.setMinutes()
+// d.setSeconds()
+// d.setMilliseconds()
+
+console.log(d);

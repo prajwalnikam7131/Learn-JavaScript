@@ -39,3 +39,20 @@ let persons = {
 
 console.log(typeof persons); // object
 
+
+// Accessing Object properties:
+// we can access object properties in two ways:
+
+// 1st Method: objectName.propertyName:
+console.log(persons.location); // Malegoan
+
+// 2nd Method: objectName["propertyName"]
+console.log(persons["location"]); // Malegoan
+
+// change or update value:
+persons.firstName = "Pirate";
+
+// adding property in object:
+persons.email = "pn@microsoft.com";
+
+console.log(persons);

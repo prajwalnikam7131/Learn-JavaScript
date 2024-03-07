@@ -77,7 +77,7 @@ const { courseInstructor: instructor } = course; // de-structure
 
 
 
-/* what is json: json is { } */
+/* what is json: json is { } object */
 
 // {
 //     "name": "prajwal",

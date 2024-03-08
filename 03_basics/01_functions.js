@@ -55,14 +55,6 @@ function loginUserMessage(username = "user") {
 console.log(loginUserMessage()); // user is logged in.
 console.log(loginUserMessage("Pirate")); // Pirate is logged in.
 
-
-
-
-
-
-
-
-
 /* 
     Object in function:
  */

@@ -11,19 +11,17 @@ var c = 100; // Global Scope
 // console.log(b); // error
 // console.log(c);  // 30
 
+function one() {
+    const firstFunction = `Run Outer Function`;
 
-function firstFun() {
-    let a = 30;
-    let b = 20;
+    console.log(secondFunction);
 
-    console.log(a+b);
-    secondFun();
-
-    function secondFun() {
-        console.log(a+b);
-
-        // secondFun();
+    function two() {
+        const secondFunction = `Run Inner Function`;
+        
+        console.log(firstFunction);
     }
+    two();
 }
 
-firstFun();
+one();
